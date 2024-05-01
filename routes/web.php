@@ -24,3 +24,7 @@ Route:: get('ejercicio', function(){
 Route:: get('terremot', function(){
     return view('earthquake');
 });
+
+Route::get('grafica_cristhian', function(){
+    return view('grafica_cristhian');
+});

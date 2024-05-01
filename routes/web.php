@@ -31,3 +31,6 @@ Route::get('grafica_cristhian', function(){
 Route::get('pruebaxuno', function(){
     return view('pruebax');
 });
+Route::get('sensor2', function(){
+    return view('vista');
+});

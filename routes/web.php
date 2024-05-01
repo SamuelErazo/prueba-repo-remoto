@@ -28,3 +28,6 @@ Route:: get('terremot', function(){
 Route::get('grafica_cristhian', function(){
     return view('grafica_cristhian');
 });
+Route::get('pruebaxuno', function(){
+    return view('pruebax');
+});
